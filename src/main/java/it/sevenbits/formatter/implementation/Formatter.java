@@ -43,7 +43,7 @@ public class Formatter implements IFormatter {
                     throw new FormatterException("Negative parenthesis quantity!", new Exception());
                 }
                 if (tabLevel < 0) {
-                    throw new FormatterException("Negative tab level!", new Exception());
+                    tabLevel = 0;
                 }
 
                 char previous = current;
