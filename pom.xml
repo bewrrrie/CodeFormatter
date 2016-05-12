@@ -15,7 +15,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>it.sevenbits.formatter.main.Main</mainClass>
+                            <mainClass>it.sevenbits.main.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -51,6 +51,12 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.1.7</version>
         </dependency>
     </dependencies>
 

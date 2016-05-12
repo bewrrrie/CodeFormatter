@@ -1,6 +1,6 @@
-package it.sevenbits.formatter;
+package it.sevenbits.writer;
 
-import it.sevenbits.formatter.exception.WriterException;
+import it.sevenbits.writer.exception.WriterException;
 
 /**
  * Writer interface.
@@ -14,11 +14,4 @@ public interface IWriter {
      * @throws WriterException
      */
     void write(final char c) throws WriterException;
-
-    /**
-     * Close writing stream.
-     *
-     * @throws WriterException
-     */
-    void close() throws WriterException;
 }

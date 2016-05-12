@@ -1,6 +1,6 @@
-package it.sevenbits.formatter;
+package it.sevenbits.reader;
 
-import it.sevenbits.formatter.exception.ReaderException;
+import it.sevenbits.reader.exception.ReaderException;
 
 /**
  * Reader interface.
@@ -22,11 +22,4 @@ public interface IReader {
      * @throws ReaderException
      */
     boolean isAvailable() throws ReaderException;
-
-    /**
-     * Close reading stream.
-     *
-     * @throws ReaderException
-     */
-    void close() throws ReaderException;
 }

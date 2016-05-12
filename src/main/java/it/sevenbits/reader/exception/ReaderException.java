@@ -1,4 +1,4 @@
-package it.sevenbits.formatter.exception;
+package it.sevenbits.reader.exception;
 
 /**
  * Reader class exception.
